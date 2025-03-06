@@ -68,9 +68,10 @@ small {
 
 @media (min-width: 768px) {
   .form {
-    grid-template-columns: auto 1fr auto;
+    /* grid-template-columns: auto 1fr auto; */
+    /* align-items: center; */
     grid-gap: 1rem;
-    align-items: center;
-    
+    max-width: 650px;
+    margin: 10rem auto;
   }
 }
